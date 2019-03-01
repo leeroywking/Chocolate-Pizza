@@ -1,5 +1,6 @@
 html{
     width: 901px;
+    margin:auto;
 }
 nav img{
     float: left;
@@ -112,6 +113,7 @@ article4 p{
     display: block;
     margin-top: 10px;
     margin-left: 85px;
+    width: 500px;
 }
 
 button{
