@@ -76,6 +76,10 @@ article3{
     position: relative;
     text-align: left;
 }
+article3 ul img{
+    height: 15px;
+    padding-right: 5px;
+}
 #left{
     position: absolute;
     top: 15px;
@@ -83,8 +87,10 @@ article3{
     margin-top: -282px;
     width: 175;
     line-height: 1.982;
-    list-style: square;
+    list-style: none;
+    
 }
+
 #right{
     position: absolute;
     top: 15px;
@@ -92,7 +98,13 @@ article3{
     margin-top: -282px;
     width: 262px;
     line-height: 1.982;
-    list-style:url('../img/empty-square.svg');
+    list-style:none;
+}
+#right li:nth-child(2){
+    text-decoration: line-through;
+}
+#right li:nth-child(3){
+    text-decoration: line-through;
 }
 article4{
     display: block;
@@ -155,6 +167,7 @@ footer ul{
 }
 footer li:last-child{
     margin-left: 30px;
+    padding-top: 10px;
 }
 
 footer p{
