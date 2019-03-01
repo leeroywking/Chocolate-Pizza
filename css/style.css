@@ -20,12 +20,13 @@ nav ul{
 float: right;
 display: inline-block;
 }
-nav ul:nth-child(){
-    padding-left:5px;
+nav li:nth-child(2){
+    padding-left:10px;
 }
 nav li{
     display: inline-block;
     float: right;
+    padding-right: 1px;
 }
 text{
     display: inline-block;
