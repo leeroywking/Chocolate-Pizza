@@ -53,6 +53,10 @@ article1 p{
 #print{
     float: right;
     margin-top: -20;
+    padding: 2px;
+}
+#print img{
+    padding-right:3px;
 }
 #clearfloats{
     clear:both;
