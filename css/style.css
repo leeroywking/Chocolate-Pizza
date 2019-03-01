@@ -67,6 +67,7 @@ body{
 #bigpizza{
     padding-top:20px;
     display:block;
+    padding-bottom: 20px;
 }
 article2 p{
     text-indent: 20;
